@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container-black {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-white {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-white {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.heading-black {
+  color: black;
+  font-family: 'Roboto';
+}
+
+.button-black {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto';
+  width: 80px;
+  height: 35px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.button-white {
+  background-color: white;
+  color: black;
+  font-family: 'Roboto';
+  width: 80px;
+  height: 35px;
+  border: 0px;
+  border-radius: 10px;
+}
